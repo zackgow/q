@@ -51,7 +51,7 @@ def run(**params):
     return
 
 theta = np.random.rand(2) * np.pi
-print('value of theta: {}').format(theta)
+print('value of theta: ', theta)
 
 for shot in [1, 10, 100, 1000, 10000]:
     parameters = {
